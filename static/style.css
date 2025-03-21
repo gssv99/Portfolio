@@ -1,17 +1,18 @@
 /* General Styles */
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Playfair Display', serif;
     margin: 0;
     padding: 0;
     background-color: #f9f9f9;
-    color: #333;
+    color: #004c4c;
     line-height: 1.6;
 }
 
 header {
-    background-color: #2c3e50;
+    background-color: #004c4c;
     padding: 20px;
     text-align: center;
+    color: white;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -26,7 +27,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #1abc9c;
+    color: #b2d8d8;
 }
 
 section {
@@ -36,15 +37,16 @@ section {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #2c3e50;
+    background-color: #004c4c;
     color: white;
 }
 
 /* Hero Section */
 .hero {
     text-align: center;
-    background: linear-gradient(135deg, #1abc9c, #16a085);
-    color: white;
+    background-color: #b2d8d8;
+    color: #004c4c;
+    padding: 100px 20px;
 }
 
 .hero h1 {
@@ -59,7 +61,7 @@ footer {
 
 .btn {
     padding: 10px 20px;
-    background-color: #3498db;
+    background-color: #004c4c;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -68,7 +70,7 @@ footer {
 }
 
 .btn:hover {
-    background-color: #2980b9;
+    background-color: #66b2b2;
 }
 
 /* Projects Section */
@@ -94,23 +96,24 @@ footer {
 .project-card h3 {
     font-size: 1.5rem;
     margin-bottom: 10px;
-    color: #2c3e50;
+    color: #004c4c;
 }
 
 .project-card p {
     font-size: 1rem;
-    color: #666;
+    color: #666666;
 }
 
 /* Contact Section */
 .contact {
     text-align: center;
-    background: #f4f4f4;
+    background-color: #b2d8d8;
 }
 
 .contact h2 {
     font-size: 2rem;
     margin-bottom: 20px;
+    color: #004c4c;
 }
 
 .social-links {
