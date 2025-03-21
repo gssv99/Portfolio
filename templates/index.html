@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi, I'm a passionate developer who loves building things with code. Check out my work below!</p>
+        <a href="#projects" class="btn">View Projects</a>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-card">
+            <h3>Expenses Tracker</h3>
+            <p>A simple web app to track daily expenses, built with Python and Flask.</p>
+            <a href="#" class="btn">View Project</a>
+        </div>
+        <!-- Add more project cards here -->
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Let's connect! You can find me on:</p>
+        <div class="social-links">
+            <a href="https://linkedin.com/in/yourprofile" target="_blank" class="btn">LinkedIn</a>
+            <a href="https://github.com/yourusername" target="_blank" class="btn">GitHub</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 My Portfolio. All rights reserved.</p>
+    </footer>
+
+    <!-- Smooth Scroll Script -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
